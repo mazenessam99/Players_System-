@@ -23,10 +23,15 @@ It allows users to **view, add, edit, and delete** player records through an ele
 |-------------|-------------|
 | ![Next.js](https://skillicons.dev/icons?i=nextjs) | Framework for building the frontend and backend APIs |
 | ![React](https://skillicons.dev/icons?i=react) | UI library used for building interactive components |
-| ![MongoDB](https://skillicons.dev/icons?i=mongodb) | Database for storing players' data |
+| ![MongoDB](https://skillicons.dev/icons?i=mongodb) | NoSQL database for storing players' data |
+| ![Mongoose](https://skillicons.dev/icons?i=nodejs) | ODM (Object Data Modeling) library for MongoDB, used to define schemas and interact with the database |
 | ![Node.js](https://skillicons.dev/icons?i=nodejs) | Backend runtime environment |
-| ![TailwindCSS](https://skillicons.dev/icons?i=tailwind) | Utility-first CSS framework for design |
-| ![Postman](https://skillicons.dev/icons?i=postman) | Used to test and debug API endpoints |
+| ![TailwindCSS](https://skillicons.dev/icons?i=tailwind) | Utility-first CSS framework for responsive design |
+| ![shadcn/ui](https://avatars.githubusercontent.com/u/139895814?s=200&v=4) | Reusable component library built on top of Radix and TailwindCSS for elegant UI elements |
+| ![Framer Motion](https://skillicons.dev/icons?i=framer) | Animation library for smooth transitions and interactive effects |
+| ![React Hot Toast](https://skillicons.dev/icons?i=react) | Lightweight library for elegant toast notifications |
+| ![Postman](https://skillicons.dev/icons?i=postman) | Tool for testing and debugging API endpoints |
+
 
 ---
 

@@ -4,7 +4,6 @@ import { useParams, useRouter } from "next/navigation";
 import { motion } from "framer-motion";
 import { Save } from "lucide-react";
 import { toast, Toaster } from "react-hot-toast";
-
 export default function PlayerDetailPage() {
   const params = useParams();
   const router = useRouter();

@@ -15,7 +15,7 @@ export default function AddPlayerPage() {
     image: "",
     logo: "",
   });
-  const [errors, setErrors] = useState({}); // 🔴 inline error storage
+  const [errors, setErrors] = useState({}); 
 
   // ✅ Joi schema
   const schema = Joi.object({
@@ -41,7 +41,7 @@ export default function AddPlayerPage() {
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
-    setErrors({ ...errors, [e.target.name]: "" }); // clear inline error as user types
+    setErrors({ ...errors, [e.target.name]: "" }); 
   };
 
   const handleSubmit = async (e) => {
@@ -53,7 +53,7 @@ export default function AddPlayerPage() {
       error.details.forEach((err) => {
         fieldErrors[err.path[0]] = err.message;
       });
-      setErrors(fieldErrors); // 🧠 display inline
+      setErrors(fieldErrors); 
       return;
     }
 

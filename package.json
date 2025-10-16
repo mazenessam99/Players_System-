@@ -5,7 +5,10 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "export": "next export",
+    "deploy": "next build && next export && git add . && git commit -m \"Deploy\" && git subtree push --prefix out origin gh-pages"
+
   },
   "dependencies": {
     "formidable": "^3.5.4",
@@ -21,6 +24,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "gh-pages": "^6.3.0",
     "tailwindcss": "^4"
   }
 }
